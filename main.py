@@ -1,4 +1,3 @@
-import pandas as pd
 from matplotlib import pyplot as plt
 import calculate
 
@@ -14,17 +13,17 @@ import calculate
 
 
 #simple
-#jahre 		= 10 // die insgesamt eingezahlt werden
-#zinssatz 	= 4 //Jahreszins für den gesamten einzahl Zahlraum
-#sparrate 	= 500 //Jährlich
+#jahre 		= 26 	#// die insgesamt eingezahlt werden
+#zinssatz 	= 8.9 	#//Jahreszins für den gesamten einzahl Zahlraum
+#sparrate 	= 300 	#//Jährlich
 #finanzmappe = calculate.simpleCalc(jahre,zinssatz,sparrate)
 
 #complex
-#laufzeit			= 40  	//Berechnung bis N Jahre
-#jahreZumEinzahlen 	= 10 	//Bis zu welchen Jahr wird die Sparrate eingezahlt und dannach nur mit Zinseszins gerechnet
-#zinssatz 			= 4		//Jahreszins für den gesamten einzahl Zahlraum
-#sparrate 			= 500	//Jährlich
-#finanzmappe = calculate.complexCalc(laufzeit,jahreZumEinzahlen,zinssatz,sparrate)
+laufzeit			= 40  	#//Berechnung bis N Jahre
+jahreZumEinzahlen 	= 10 	#//Bis zu welchen Jahr wird die Sparrate eingezahlt und dannach nur mit Zinseszins gerechnet
+zinssatz 			= 7.5	#//Jahreszins für den gesamten einzahl Zahlraum
+sparrate 			= 300	#//Jährlich
+finanzmappe = calculate.complexCalc(laufzeit,jahreZumEinzahlen,zinssatz,sparrate)
 
 
 jahre = finanzmappe.get_daten_jahre()

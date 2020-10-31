@@ -7,7 +7,7 @@ Ziel: Einfaches einarbeiten veranschaulichen von Python-Pandas
 
 
 Abhängigkeiten/Benötigt
-Pandas --> Python
+matplotlib --> Python
 
 ##########################
 Config:

@@ -45,8 +45,6 @@ class simpleCalc(object):
     def get_daten_zinsen(self):
         return self.daten['zinsen']
 
-
-
 class complexCalc(object):
     daten = None
     def __init__(self, laufzeitJahre, einzahlungBisNJahr, zinssatz, einzahlung):
